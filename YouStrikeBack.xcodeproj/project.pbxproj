@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B7803062343B42C00573BDD /* SimpleSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7803052343B42C00573BDD /* SimpleSound.swift */; };
+		5B7803142343BAA000573BDD /* 1-01 Main Title (From _Star Wars_).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5B7803132343BAA000573BDD /* 1-01 Main Title (From _Star Wars_).m4a */; };
+		5B7803162343BAB300573BDD /* 1-10 The Imperial March (From _The Empire Strikes Back_).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5B7803152343BAB300573BDD /* 1-10 The Imperial March (From _The Empire Strikes Back_).m4a */; };
 		5BED1B7223354F150015BD6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BED1B7123354F150015BD6B /* AppDelegate.swift */; };
 		5BED1B7423354F150015BD6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BED1B7323354F150015BD6B /* ViewController.swift */; };
 		5BED1B7723354F150015BD6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BED1B7523354F150015BD6B /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B7803052343B42C00573BDD /* SimpleSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleSound.swift; sourceTree = "<group>"; };
+		5B7803132343BAA000573BDD /* 1-01 Main Title (From _Star Wars_).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "1-01 Main Title (From _Star Wars_).m4a"; sourceTree = "<group>"; };
+		5B7803152343BAB300573BDD /* 1-10 The Imperial March (From _The Empire Strikes Back_).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "1-10 The Imperial March (From _The Empire Strikes Back_).m4a"; sourceTree = "<group>"; };
 		5BED1B6E23354F150015BD6B /* YouStrikeBack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouStrikeBack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BED1B7123354F150015BD6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BED1B7323354F150015BD6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +105,9 @@
 			children = (
 				5BED1B7123354F150015BD6B /* AppDelegate.swift */,
 				5BED1B7323354F150015BD6B /* ViewController.swift */,
+				5B7803052343B42C00573BDD /* SimpleSound.swift */,
+				5B7803152343BAB300573BDD /* 1-10 The Imperial March (From _The Empire Strikes Back_).m4a */,
+				5B7803132343BAA000573BDD /* 1-01 Main Title (From _Star Wars_).m4a */,
 				5BED1B7523354F150015BD6B /* Main.storyboard */,
 				5BED1B7823354F160015BD6B /* Assets.xcassets */,
 				5BED1B7A23354F160015BD6B /* LaunchScreen.storyboard */,
@@ -229,8 +238,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B7803162343BAB300573BDD /* 1-10 The Imperial March (From _The Empire Strikes Back_).m4a in Resources */,
 				5BED1B7C23354F160015BD6B /* LaunchScreen.storyboard in Resources */,
 				5BED1B7923354F160015BD6B /* Assets.xcassets in Resources */,
+				5B7803142343BAA000573BDD /* 1-01 Main Title (From _Star Wars_).m4a in Resources */,
 				5BED1B7723354F150015BD6B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B7803062343B42C00573BDD /* SimpleSound.swift in Sources */,
 				5BED1B7423354F150015BD6B /* ViewController.swift in Sources */,
 				5BED1B7223354F150015BD6B /* AppDelegate.swift in Sources */,
 			);

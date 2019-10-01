@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DarthVader" translatesAutoresizingMaskIntoConstraints="NO" id="Qww-Cq-AQT">
-                                <rect key="frame" x="67" y="139" width="240" height="219"/>
+                                <rect key="frame" x="67" y="135" width="240" height="219"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Luke" translatesAutoresizingMaskIntoConstraints="NO" id="cxW-gm-Yja">
@@ -66,7 +66,7 @@
                                     <action selector="forceChoke:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fIV-eJ-Rib"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="May The Force Be With You!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fN1-06-olV">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="May The Force Be With You!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fN1-06-olV">
                                 <rect key="frame" x="42" y="385" width="291" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
@@ -87,8 +87,12 @@
                                 <color key="textColor" red="0.083965818100000006" green="0.97261361049999995" blue="0.013649479710000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tZ9-6Y-WKP">
+                                <rect key="frame" x="59" y="200" width="256" height="399"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
@@ -99,11 +103,14 @@
                         <outlet property="SaberSlash" destination="W9t-XJ-Lu4" id="FD8-LE-D53"/>
                         <outlet property="SaberThrow" destination="OZF-Wg-CyY" id="aVh-Y7-2dZ"/>
                         <outlet property="VaderHealth" destination="C7D-I9-zf2" id="K4m-v5-LSm"/>
+                        <outlet property="endGameImage" destination="tZ9-6Y-WKP" id="28d-Bl-OUQ"/>
+                        <outlet property="lukeImage" destination="cxW-gm-Yja" id="7cO-kB-HLI"/>
+                        <outlet property="vaderImage" destination="Qww-Cq-AQT" id="l8m-Zr-cVC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="133.92857142857142"/>
+            <point key="canvasLocation" x="136.80000000000001" y="133.74384236453201"/>
         </scene>
     </scenes>
     <resources>
